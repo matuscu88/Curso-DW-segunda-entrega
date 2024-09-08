@@ -159,3 +159,13 @@ main .persona img{
     width: 30%;
 }
 
+/* estilos de contacto */
+
+.contacto{
+    display: flex;
+    flex-direction: column; /* todo en columna */
+    align-items: center; /* items alineados al centro */ 
+    justify-content: center;
+
+}
+
