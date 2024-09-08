@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: whitesmoke;  /* colo de fondo de todo el body */
+    background-color: #E5E5E5;  /* colo de fondo de todo el body */
 }
 
 /* estilos de main version mobile (estructura general con GRID y luego internamente con FLEX)*/
@@ -88,4 +88,74 @@ main .div-generico img{
     }
 }
 
+/* estilos de section */
+
+section div{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+section div img{
+    align-items: center;
+    width: 80%;
+}
+
+/* estilos de footer */ 
+
+footer div{
+    padding: 2rem;
+    background-color: #161616;
+    color: whitesmoke;
+}
+
+footer div ul{
+    list-style: none;
+}
+
+/* estilos de page nosotros */
+
+main .persona{
+    display: flex;
+    text-align: center; /* alineacion del texto al centro */
+    color: black;    /* color tipografia dentro de todo el main */
+    padding: 0.5rem;
+    flex-direction: column; /* todo en columna */
+    align-items: center; /* items alineados al centro */ 
+    justify-content: center;
+    gap: 1rem; /* separacion entre tiems*/
+
+}
+
+main .persona img{
+    width: 50%;
+}
+
+/* estilos main tienda */
+
+.tienda{
+    padding: 2rem;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); /* tengo una sola columna */
+    grid-template-rows: repeat(2,1fr); /* una columna, con tres filas */
+    column-gap: 3rem;
+    row-gap: 3rem; /* 1 rem son 16px */
+    
+}
+
+.tienda .img{
+    background-color: #161616;
+    text-align: center; /* alineacion del texto al centro */
+    color: whitesmoke;    /* color tipografia dentro de todo el main */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* todo en columna */
+    align-items: center; /* items alineados al centro */ 
+    justify-content: center;
+    gap: 1rem; /* separacion entre tiems*/ 
+}
+
+.tienda .img img{
+    width: 30%;
+}
 
