@@ -136,10 +136,10 @@ main .persona img{
 .tienda{
     padding: 2rem;
     display: grid; 
-    grid-template-columns: repeat(3, 1fr); /* tengo una sola columna */
-    grid-template-rows: repeat(2,1fr); /* una columna, con tres filas */
-    column-gap: 3rem;
-    row-gap: 3rem; /* 1 rem son 16px */
+    grid-template-columns: repeat(2, 1fr); /* tengo una sola columna */
+    grid-template-rows: repeat(3,1fr); /* una columna, con tres filas */
+    column-gap: 1rem;
+    row-gap: 1rem; /* 1 rem son 16px */
     
 }
 
