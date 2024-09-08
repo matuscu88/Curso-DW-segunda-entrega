@@ -163,9 +163,15 @@ main .persona img{
 
 .contacto{
     display: flex;
+    justify-content: center;
+}
+
+/* estilos de servicio tecnico */ 
+
+.servicio{
+    padding: 2rem;
+    display: flex;
     flex-direction: column; /* todo en columna */
     align-items: center; /* items alineados al centro */ 
     justify-content: center;
-
 }
-
