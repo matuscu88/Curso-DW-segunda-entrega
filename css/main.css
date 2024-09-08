@@ -28,6 +28,7 @@ main .div-generico{
     display: flex;
     flex-direction: column; /* todo en columna */
     align-items: center; /* items alineados al centro */ 
+    justify-content: center;
     gap: 1rem; /* separacion entre tiems*/ 
 }
 
